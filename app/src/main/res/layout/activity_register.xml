@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jonmid.pruebabasedatos.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <EditText
+            android:id="@+id/id_et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="id"/>
+        <EditText
+            android:id="@+id/id_et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nombre"/>
+        <EditText
+            android:id="@+id/id_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="telefono"/>
+        <Button
+            android:id="@+id/id_btn_register_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar usuario"
+            android:onClick="btnClickRegister"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
